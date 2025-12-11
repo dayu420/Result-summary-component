@@ -4,7 +4,7 @@ A responsive result summary component built using HTML, CSS.
 
 ## Features
 
-- Fully responsive layout for desktop and mobile
+- Fully responsive layout for desktop and mobile [IN PROGRESS]
 - Styled using CSS with the BEM methodology
 - Clean and maintainable code structure
 
