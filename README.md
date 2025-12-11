@@ -16,7 +16,7 @@ A responsive result summary component built using HTML, CSS.
 
 ## Screenshot
 
-![](/screenshot.png){width=400px}
+<img src="screenshot.png" alt="Project Screenshot" width="400">
 
 ## Live Demo
 
