@@ -16,7 +16,7 @@ A responsive result summary component built using HTML, CSS.
 
 ## Screenshot
 
-![](/screenshot.png)
+![](/screenshot.png){width=400px}
 
 ## Live Demo
 
