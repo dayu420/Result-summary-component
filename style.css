@@ -431,6 +431,11 @@ align-items: center;
             max-width: 768px;
             gap: 0.5rem;
         }
+
+        .summary__button:hover {
+            cursor: pointer;
+            background-color: var(--gradient-2);
+        }
     }
 
 }
