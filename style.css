@@ -332,8 +332,6 @@ align-items: center;
     
     body {
         background-color: var(--blue-50);
-        /* display: flex;
-        justify-content: center; */
         min-height: 100vh;
 
     }
@@ -341,7 +339,6 @@ align-items: center;
     
     .results-summary-component {
         flex-direction: row;
-        /* max-width: 686px; */
         border-radius: 2rem;
     }
     
@@ -424,6 +421,16 @@ align-items: center;
         font-size: var(--t5b-size);
         font-weight: var(--t5b-weight);
         line-height: var(--t5b-line);
+    }
+
+    @media (min-width: 1024px) {
+        .wrapper {
+            padding-top: 9rem;
+        }
+        .results-summary-component {
+            max-width: 768px;
+            gap: 0.5rem;
+        }
     }
 
 }

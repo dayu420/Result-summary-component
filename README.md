@@ -2,12 +2,6 @@
 
 A responsive results summary component built as a Frontend Mentor challenge.
 
-## 🚧 Work in Progress
-
-- [x] Mobile layout
-- [x] Tablet layout
-- [ ] Desktop layout
-
 ## 🔧 Built With
 
 - HTML5
