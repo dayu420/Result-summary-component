@@ -1,25 +1,49 @@
 # Result Summary Component
 
-A responsive result summary component built using HTML, CSS.
+A responsive results summary component built as a Frontend Mentor challenge.
 
-## Features
+## 🚧 Work in Progress
 
-- Fully responsive layout for desktop and mobile [IN PROGRESS]
-- Styled using CSS with the BEM methodology
-- Clean and maintainable code structure
+- [x] Mobile layout
+- [x] Tablet layout
+- [ ] Desktop layout
 
-## What I Learned
+## 🔧 Built With
 
-- Practiced BEM (Block, Element, Modifier) for CSS class naming
-- Improved layout and design skills with Flexbox.
-- Gained experience deploying projects on GitHub Pages
+- HTML5
+- CSS3
+- Flexbox
 
-## Screenshot
+## 🧠 Methodology
 
-<div align="center">
-  <img src="screenshot.png" alt="Project Screenshot" width="400">
-</div>
+- BEM (Block, Element, Modifier) naming convention
+- Mobile-first workflow
+- Responsive design principle
 
-## Live Demo
+## ✨ Features
+
+- Fully responsive layout (mobile → tablet → desktop)
+- Accurate spacing and typography based on Figma design
+- Clean separation between page layout and component layout
+- Consistent box model using `box-sizing: border-box`
+- Scalable and maintainable CSS structure
+
+## 🧠 What I Learned
+
+- How padding, gap, and line-height interact in Flexbox layouts
+- Why `gap` applies only between direct children, not container edges
+- How to control card shape using width constraints
+- The difference between Figma’s visual box model and CSS box sizing
+- When to use fixed width vs `max-width` intentionally
+- How to refactor safely using search & replace anchored to syntax
+- When to stop pixel-perfecting and define a “good enough” rule
+
+## 📸 Screenshot
+
+### Screenshot
+
+![](/screenshot.png)
+
+## 🚀 Live Demo
 
 [View it on GitHub Pages](https://dayu420.github.io/Result-summary-component/)

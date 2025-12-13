@@ -7,50 +7,57 @@
     <title>results-summary-component</title>
   </head>
   <body>
-    <div class="results-summary-component">
-      <section class="results-summary">
-        <h2 class="results-summary_heading">Your Result</h2>
-        <div class="results-summary_circle">
-          <span class="results-summary_score">76</span>
-          <span class="results-summary_total">of 100</span>
-        </div>
-        <div class="results-summary-text">
-          <p class="results-summary_title">Great</p>
-          <p class="results-summary_subtitle">
-            You scored higher than 65% of the people who have taken these tests.
-          </p>
-        </div>
-      </section>
-      <section class="summary">
-        <h2 class="summary_heading">Summary</h2>
-        <ul class="summary_list">
-          <li class="summary_list-item">
-            <span class="summary_list-item_label">Reaction</span>
-            <span class="summary_list-item_score"
-              ><strong>80</strong> / 100</span
-            >
-          </li>
-          <li class="summary_list-item">
-            <span class="summary_list-item_label">Memory</span>
-            <span class="summary_list-item_score"
-              ><strong>92</strong> / 100</span
-            >
-          </li>
-          <li class="summary_list-item">
-            <span class="summary_list-item_label">Verbal</span>
-            <span class="summary_list-item_score"
-              ><strong>61</strong> / 100</span
-            >
-          </li>
-          <li class="summary_list-item">
-            <span class="summary_list-item_label">Visual</span>
-            <span class="summary_list-item_summary_list-item_score"
-              ><strong>73</strong> / 100</span
-            >
-          </li>
-        </ul>
-        <button class="summary_button">Continue</button>
-      </section>
+    <div class="wrapper">
+      <div class="results-summary-component">
+        <section class="results-summary">
+          <h2 class="results-summary__heading">Your Result</h2>
+          <div class="results-summary__circle">
+            <span class="results-summary__score">76</span>
+            <span class="results-summary__total">of 100</span>
+          </div>
+          <div class="results-summary__text">
+            <p class="results-summary__title">Great</p>
+            <p class="results-summary__subtitle">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </section>
+        <section class="summary">
+          <h2 class="summary__heading">Summary</h2>
+          <ul class="summary__list">
+            <li class="summary__list-item">
+              <span class="summary__list-item-label">Reaction</span>
+              <span class="summary__list-item-score"
+                ><strong>80</strong>
+                <span class="summary__list-score-max">/ 100</span></span
+              >
+            </li>
+            <li class="summary__list-item">
+              <span class="summary__list-item-label">Memory</span>
+              <span class="summary__list-item-score"
+                ><strong>92</strong>
+                <span class="summary__list-score-max">/ 100</span></span
+              >
+            </li>
+            <li class="summary__list-item">
+              <span class="summary__list-item-label">Verbal</span>
+              <span class="summary__list-item-score"
+                ><strong>61</strong>
+                <span class="summary__list-score-max">/ 100</span></span
+              >
+            </li>
+            <li class="summary__list-item">
+              <span class="summary__list-item-label">Visual</span>
+              <span class="summary__list-item-score"
+                ><strong>73</strong>
+                <span class="summary__list-score-max">/ 100</span></span
+              >
+            </li>
+          </ul>
+          <button class="summary__button">Continue</button>
+        </section>
+      </div>
     </div>
   </body>
 </html>

@@ -1,0 +1,1 @@
+// ustawic flex na summary_list-item_summary_list-item_score i zrobic gap miedzy 2oma scorami
